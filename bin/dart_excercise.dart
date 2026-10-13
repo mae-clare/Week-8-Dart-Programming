@@ -30,13 +30,12 @@ String evaluateStudentPerformance(List<String> rawScores) {
       return 'Average: ${average.toStringAsFixed(2)}% | Status: Failed (Needs Improvement)';
     }
   } catch (e) {
-    // Error Handling: Catches invalid inputs gracefully
     return 'Processing Error Handled: ${e.toString()}';
   }
 }
 
 void main() {
-  print('   NTC PC16 - DART FUNDAMENTALS LOGIC PROBLEM SET  ');
+  print(' DART FUNDAMENTALS LOGIC PROBLEM SET  ');
 
   List<String> validScores = ['85.5', '92.0', '78.0', '88.5'];
   print('--- Test Case 1: Valid Inputs ---');
