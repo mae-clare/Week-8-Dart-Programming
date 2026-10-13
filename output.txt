@@ -1,0 +1,11 @@
+NTC PC16 - DART FUNDAMENTALS LOGIC PROBLEM SET  
+
+Inputs: [85.5, 92.0, 78.0, 88.5]
+Result: Average: 86.00% | Status: Passed
+
+Inputs: [85.5, abc, 90.0]
+Result: Processing Error Handled: FormatException: Invalid double
+abc
+
+Inputs: [95.0, 105.0, 80.0]
+Result: Processing Error Handled: FormatException: Score 105 out of valid range (0–100).
